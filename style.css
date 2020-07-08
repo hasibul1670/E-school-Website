@@ -1,0 +1,182 @@
+body{
+    font-style: normal;
+    font-family: Poppins;
+}
+/**** All Container CSS Start ****/
+.container {
+    margin-bottom: 50px;   
+}
+.container-books{
+    margin-top: 5rem;
+    margin-left: rem;
+}
+.container-courses{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+/**** All Container CSS End****/
+
+/****navbar CSS Start****/
+.nav-image {
+    width: 198.07px;
+    height: 59px;
+}
+.navbar{
+    margin-bottom: 5rem;
+}
+.btn-nav{
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 34px;
+}
+/****navbar CSS End****/
+
+/**** Home Section CSS Start ****/
+.title-headline{
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.title-line{
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+}
+.title-line span{
+    color: #21B573;
+    }
+.text-justify{
+font-weight: normal;
+font-size: 16px;
+color: #6C6B6B;
+}
+.btn-home{
+    margin-top: 5px;
+    border-radius: 34px;
+}
+/**** Home Section CSS End ****/
+
+/****Books Section CSS Start****/
+.card{
+    height:300px;
+ width: 250px;
+    margin:45px;
+    border: none;
+    background: #F8FFFB;
+    box-shadow: 5px 5px 12px lightgray;
+    border-radius:1.1rem;
+}
+.card:hover{
+    background:#ffffff;
+}
+.card-img-top{
+width: 75px;
+height: 80px;
+
+}
+#card2-img,#card1-img, #card3-img,#card4-img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-left: auto;
+margin-right: auto;
+}
+
+.card-title{
+ text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #413960;
+}
+.card-text{
+    text-align: center;
+    color:#585859;
+}
+/****Books Section CSS End****/
+
+/**** Courses Section CSS Start ****/
+.courses-card-img{
+    width: 320px;
+    height: 300px;
+}
+.courses-card{ 
+padding-top: 1rem;
+padding-left: 1rem;
+width: 350px;
+height: 513px;
+margin-right: 5rem;
+}
+.cardfoot img{
+    width: 24px;
+height: 24px;
+margin-bottom:13px;
+}
+.course-btn{
+    margin-left: 0;
+}
+/**** Courses Section CSS End ****/
+
+/**** Testimonial Section CSS Start****/
+.testinonial{
+    margin-bottom:4rem;
+}
+.testimonial-title h1
+{
+font-weight: 700;
+margin-bottom: 100px;
+}
+.testimonial-text{
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+/**** Testimonial Section CSS End****
+/**** Award section CSS Start ****/
+.award-title{
+    margin-top: 5rem;
+    font-weight: 700;
+}
+.award-img{
+    height: 120px;
+    width: 80%;
+}
+.award-card:hover {
+    background-color:gray;
+}
+.award-card:hover h5{
+    color:white;
+    font-weight: 700;
+}
+.award-card-title{
+    font-size: 1.3rem;
+}
+/**** Award section CSS End ****/
+
+/**** footer Section CSS Start ****/
+footer{
+    padding-top: 2rem;
+    height: 450px;
+    background:#282531;
+    color: #ffffff;
+}
+.footer-title{
+    text-align:center;
+}
+footer ul li{
+    list-style-type:none;
+}
+footer ul li a{
+    font-size:16px;
+    color: #ffffff;
+}
+footer ul li a:link{
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: tomato;
+}
+.footer-end{
+    color:#F8FFFB;
+    margin-top: 2rem;
+    font-size: 16px;
+}
+/**** footer Section CSS End ****/
