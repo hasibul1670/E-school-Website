@@ -3,7 +3,7 @@ body{
     font-family: Poppins;
 }
 /**** All Container CSS Start ****/
-.container {
+.container {    
     margin-bottom: 50px;   
 }
 .container-books{
@@ -17,6 +17,10 @@ body{
 /**** All Container CSS End****/
 
 /****navbar CSS Start****/
+header{
+    
+background: #F0FFF0;
+}
 .nav-image {
     width: 198.07px;
     height: 59px;
